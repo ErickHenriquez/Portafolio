@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACMAN DEMO</title>
+    <link rel="stylesheet" href="pacman.css">
+</head>
+<body>
+    
+    <div id='container'>
+        <div id='world'></div>
+        <div id='pacman'></div>
+        <div id='pacmanhomer'></div>
+        <div id='ghost_pink'></div>
+        <div id='ghost_lightblue'></div>
+        <div id='ghost_orange'></div>
+        <div id='ghost_green'></div>
+        <div id='score'></div>
+        <div id='vida1'></div>
+        <div id='vida2'></div>
+        <div id='vida3'></div>
+        <div id='youwin'></div>
+        <div id='gameover'></div>
+    </div>
+
+    <button id="start" onclick="audiointro()" type="button">START</button>
+    <button id="player2" onclick="displaynewpacmanhomer()" type="button">PLAYER 2</button>
+    <button id="play" onclick="setTimeout(movertodosfantasmas, 100)" type="button">PLAY</button>
+    <button id="restart" onclick="location.reload()" type="button">RESTART</button>
+
+    <script src="pacman.js"></script>
+</body>
+</html>
