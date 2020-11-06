@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;/*
+    border: 1px solid pink;*/
+}
+
+body, html {
+    height: 100%;
+}
+  
+.bg-image {
+    background-image: url('img/wallpaper.jpg');
+    background-size:100% 100%;
+    filter: blur(8px);
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+@font-face {
+    font-family: Pokefont1;
+    src: url('font/Pokemon Hollow.ttf');
+}
+
+@font-face {
+    font-family: Pokefont2;
+    src: url('font/Pokemon Solid.ttf');
+}
+
+h1{
+    font-family: Pokefont2;
+    font-size: 85px;
+    color: rgb(255, 230, 7);
+    z-index: 2;
+}
+
+h2{
+    position: absolute;
+    left: 15px; 
+    top: 0px; 
+    font-family: Pokefont1;
+    font-size: 85px;
+    color: rgb(54, 73, 179);
+
+}
+
+.container{
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-fluid {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#pokeballBack{
+    float: right;
+
+}
+
+#pokeballNext{
+    float: left;
+}
+
+.pokeballs{
+    width: 170%;
+    margin-top: 200%;
+    padding: 0px;
+}
+
+#libro{
+    background-color: rgba(124, 124, 124, 0.198);
+    
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.pokedex h3{
+    font-size: 35px;
+}
+
+.pokedex span{
+    font-size: 15px;
+}
+
+span{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.pokemon{
+    margin-top: 10px;
+}
+
+.col h4, h3{
+    margin-bottom: 5px;
+}
+
+.col img{
+    display: block;
+    margin: auto;
+    width: 75px;
+}
+
+audio{
+    height: 25px;
+    width: 170%;
+    margin-top: 180%;   
+}
+
+.pokedex{
+    position: absolute;
+    visibility: hidden;
+}
+
+#pokedex {
+    width: 58%;
+    margin-top: 0.5%;
+    margin-left: 0%;
+}
+
+.pokemon{
+    padding: 5px !important;
+    margin: 5px !important;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.164);
+    background-color: rgba(255, 255, 255, 0.80);
+}
+
+#exit{
+    width: 4.5%;
+    margin-top: 3%;
+    margin-left: 49.6%;
+}
+#darkpage{
+    width: 99.3%;
+    height: 102%;
+    margin-top: -104px;
+    margin-left: 0%;
+    background-color: black;
+    opacity: 50%;    
+}
+
+#infopokemon{
+    width: 23%;
+    height: 66%;
+    margin-top: 8.7%;
+    margin-left: 29.4%;
+
+
+}
+
+.pokeenpokedex{
+    width: 12.5%;
+    margin-left: -30.5%;
+    margin-top: 12%;
+}
